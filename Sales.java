@@ -1,18 +1,8 @@
 public class Sales extends Employee {
 
-    private int territory;
-    private double sal;
-    private double percent;
+    public void display() {
+        super.display();
+        System.out.println(" as well as a territory Id of " + tId + " and travel budget of $" + tB + ".");
 
-    public  int getTerritory()
-    {
-    return territory;
     }
-
-    public void setTerritory(int territoryId) {
-        territory = territoryId;
-    }
-
-
-
 }
